@@ -366,7 +366,7 @@ export const Home = () => {
 
       {predictedPrice && (
         <Typography variant="h5" sx={{ mt: 2, mb: 4 }}>
-          Prix prédit: {predictedPrice}
+          Prix prédit: {predictedPrice} €
         </Typography>
       )}
     </Box>
