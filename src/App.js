@@ -1,22 +1,20 @@
-
 // src/App.js
-import React, { useState } from 'react';
+import React from "react";
 import { BrowserRouter } from "react-router-dom";
-import Footer from './components/layout/Footer';
-import { MainRoutes } from './components/routes/MainRoutes';
-import { NavBar } from './components/layout/NavBar';
+import Footer from "./components/layout/Footer";
+import { NavBar } from "./components/layout/NavBar";
+import { MainRoutes } from "./components/routes/MainRoutes";
 
 function App() {
-  return(
+  return (
     <>
       <BrowserRouter>
-          <NavBar />
-          <MainRoutes />
-          <Footer />
-        </BrowserRouter>
+        <NavBar />
+        <MainRoutes />
+        <Footer />
+      </BrowserRouter>
     </>
-  )
-    
+  );
 }
 
 export default App;
